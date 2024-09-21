@@ -17,8 +17,6 @@ const SignInForm = () => {
     const{ email, password} = formFields;
 
     
-    //console.log(formFields);
-
     const resetFormFields = () => {
         setformFields(defaultFormFields);
     }
